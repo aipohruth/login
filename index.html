@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>login</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+    <div class="card-box">
+    <div class="center">
+    <img src="profile.jpeg" alt="a profile pic" width="80px">
+    <caption><h2>Twinlight</h2></caption>
+    <p>Free-Lancer</p>
+    </div>
+    <form>
+    <div class="forms">
+    <i class="fa fa-user"></i>
+    <input type="text" placeholder=" Username" required> 
+    </div>
+    <div class="forms">
+    <span onclick="myFunction()">
+    <i class="fa fa-lock" id="hide1"></i>
+    <i class="fa fa-unlock-alt" id="hide2"></i>
+    </span>
+    <input type="password" id="pwd" placeholder=" Password" required>
+    </div>
+    <span><a href="#">Forget Password?</a></span>
+    <div class="forms"> 
+    <button type="submit">Login</button>
+    <p><a href="#">Sign-up</a></p>
+    </div>
+    </form>
+    </div>
+    </div>
+        
+        <!--<script>
+             function myFunction(){
+            var pass = document.getElementById('pwd');
+            var x = document.getElementById('hide1');
+            var y = document.getElementById('hide2');
+                if(pass.type === 'password'){
+                    pass.type = 'text';
+                    x.style.display = 'none';
+                    y.style.display = 'block';
+                }
+                else{
+                    pass.type = 'password';
+                    x.style.display = 'block';
+                    y.style.display = 'none';
+                }
+            }
+        </script>-->
+
+
+
+
+
+</body>
+</html>
